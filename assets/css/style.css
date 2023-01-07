@@ -1,0 +1,405 @@
+body{
+    margin: 0px;
+    font-family: 'Mukta', sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img{
+    width: 80%;
+    height: auto;
+}
+
+/* topnav start */
+
+.topnav .Logo{
+    width: 80px;
+}
+
+.topnav{
+    background-color: #dbdcdb;
+}
+
+.topnav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.topnav .nav-links {
+    display: flex;
+}
+
+.topnav .nav-link {
+    margin: 0px 10px;
+}
+
+ 
+
+.topnav .search form div {
+    display: flex;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.topnav .search input {
+    padding: 5px 7px;
+    border: none;
+}
+
+.topnav .search button {
+    background-color: #ffc30a;
+    border: 0px;
+    padding: 7px 10px;
+    color: white;
+
+}
+
+/* topnav end */
+
+
+/* navbar start */
+
+.navbar {
+    background: #f98100;
+}
+
+.navbar .nav-links {
+    display: flex;
+    padding: 15px 0px;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar .nav-link {
+    margin: 0px 15px;
+    font-weight: bold;
+}
+
+/* navbar end */
+
+/* recipes start */
+
+
+.recipes .container{
+    display: flex;
+   justify-content: center;
+   height: 275px;
+}
+
+
+.recipes .items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.recipes .content-wrapper .items .item2 h5 {
+    font-size: 1.5rem;
+    margin-bottom: 0%;
+}
+
+.recipes .content-wrapper .item2 {
+    text-align: center;
+}
+
+.recipes .content-wrapper .item2 p {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    margin-top: 0%; 
+}
+
+.recipes .item2 .info {
+    display: flex;
+}
+
+.recipes .content-wrapper .item1 {
+    width: 350px;
+}
+
+.recipes .content-wrapper .item1 .img-wrapper img {
+    border-radius: 5px;
+    height: 250px;
+    justify-content: center;
+}
+
+.recipes .img-wrapper {
+    width: 350px;
+    height: 265px; 
+    margin: 30px;
+    margin-right: 0%;
+}
+
+.stars {
+    color: #f98100;
+}
+
+.recipes .item2 .info{
+    justify-content: space-between;
+}
+
+.recipes .items .item2 .info .in .h1 {
+    margin-bottom: 0px;
+}
+
+.recipes .line {
+    content: "";
+    width: 43rem;
+    height: 2px;
+    border-radius: 5px;
+    background: #d2d3d2;
+    margin: 1rem 28rem .5rem 20rem;
+    justify-content: center;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 120px;
+}
+
+.recipes .items .item2 .info  p {
+    text-transform: none;
+    font-size: 1.2rem;
+}
+
+/* recipes ends here */
+
+
+/* ingredients starts here */
+
+.ingredients {
+    justify-content: center;
+    display: grid;
+   
+}
+
+.ingredients .container{
+    width: 800px;
+    height: 530px;
+  
+}
+
+.ingredients .content-wrapper1 {
+    width: 800px;
+    height: 260px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 5px;
+}
+
+.ingredients .content-wrapper1 .item1 .title{
+    margin-top: 0px;
+}
+
+.ingredients .content-wrapper1 .item1{
+    height: 200px;
+    width: 200px;
+}
+
+.ingredients .content-wrapper1 .item2 {
+    height: 200px;
+    width: 200px;
+}
+
+.ingredients .content-wrapper1 .item2 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+.ingredients .content-wrapper1 .title {
+    color: #46a141;
+}
+
+.ingredients .content-wrapper2 {
+    width: 800px;
+    height: 260px;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 20px;
+}
+
+.ingredients .content-wrapper2 .item2 .title{
+    margin-top: 0px;
+}
+
+.ingredients .content-wrapper2 .item2{
+    height: 200px;
+    width: 200px;
+}
+
+.ingredients .content-wrapper2 .item1 {
+    height: 200px;
+    width: 200px;
+}
+
+.ingredients .content-wrapper2 .item1 img {
+    height: 250px;
+    width: 250px;
+    border-radius: 0.5rem;
+}
+
+.fa-chevron-right{
+    color: #f98100;
+}
+
+.ingredients .line {
+    content: "";
+    width: 43rem;
+    height: 3px;
+    border-radius: 5px;
+    background: #d2d3d2;
+    margin: 1rem 28rem .5rem 20rem;
+    justify-content: center;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 190px;
+}
+
+.ingredients .content-wrapper3 {
+    width: 800px;
+    justify-content: center;
+    display: grid;
+}
+
+/* ingredients ends here */
+
+
+/* Method starts here */
+
+.method {
+    margin-top: 50px;
+}
+
+.method .container {
+    margin: 1rem 28rem .5rem 28rem;
+}
+
+.method small {
+    display: flex;
+}
+
+.method h3{
+    color: #46a141;
+    font-size: 1.4rem;
+}
+
+.method .container .steps .bullet {
+    color: white;
+    font-weight: bold;
+    margin-top: 0px;
+    margin-right: 5px;
+    background-color: #f98100;
+    border-radius: 50%;
+    width: 18px;
+    height: 20px;
+    text-align: center;
+}
+
+.method .container .steps p {
+    margin-top: 0px;
+}
+
+.method .line {
+    content: "";
+    width: 43rem;
+    height: 3px;
+    border-radius: 5px;
+    background: #d2d3d2;
+    margin: 1rem 28rem .5rem 20rem;
+    justify-content: center;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 190px;
+}
+
+.method .content-wrapper2 {
+    width: 600px;
+    justify-content: center;
+    display: grid;
+}
+
+/*method ends here */
+
+
+/*Nutritions Starts Here*/
+
+.nutritions {
+    display: flex;
+    justify-content: center;
+}
+.nutritions .container{
+    width: 640px;
+    padding-bottom: 60px;
+}
+.nutritions .container h1 {
+    color: #46a141;
+}
+
+/*Nutritions ends here*/
+
+
+/*Footer Starts Here*/
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #d2d3d2;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    width:1000px;
+}
+
+.footer .left {
+    width: 300px;
+}
+
+.footer .left form{
+    justify-content: space-between;
+    display: flex;
+    width: 260px;
+}
+
+.footer .left input{
+    border: 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.footer .left button {
+    border: 0px;
+    background: #f98100;
+    color: white;
+    text-transform: uppercase;
+    padding: 6px 10px 5px;
+    border-radius: 5px;
+}
+
+.footer .right{
+    text-align: right;
+    width: 300px;
+}
+
+/*Footer ends here*/
+
+
+/*End Starts Here*/
+
+.end {
+    text-align: center;
+    display: block;
+    background-color: #d2d3d2;
+}
+
+/* Ends Here*/
+
+
+
